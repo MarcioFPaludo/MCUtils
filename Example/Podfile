@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MCUtils_Tests' do
+  pod 'MCUtils', :path => '../'
+  
+  
+end
