@@ -1,0 +1,16 @@
+PODS:
+  - MCUtils (0.1.0)
+
+DEPENDENCIES:
+  - MCUtils (from `../`)
+
+EXTERNAL SOURCES:
+  MCUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MCUtils: 79c6a29f457d5c53db90e5d9f9cca36b7f4b9e59
+
+PODFILE CHECKSUM: 53416106dfb4211b65b54b1a05ab6c705a3281a5
+
+COCOAPODS: 1.6.0

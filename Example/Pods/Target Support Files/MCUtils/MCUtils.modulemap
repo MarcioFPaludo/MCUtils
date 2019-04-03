@@ -1,0 +1,6 @@
+framework module MCUtils {
+  umbrella header "MCUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}
