@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "UIColor+MCU.h"
+#import "MCUTextView.h"
 
 FOUNDATION_EXPORT double MCUtilsVersionNumber;
 FOUNDATION_EXPORT const unsigned char MCUtilsVersionString[];

@@ -1,9 +1,8 @@
 {
   "name": "MCUtils",
-  "version": "0.1.0",
-  "summary": "A short description of MCUtils.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Marcio Paludo/MCUtils",
+  "version": "0.1.1",
+  "summary": "A set of classes to facilitate programming.",
+  "homepage": "https://github.com/MarcioFPaludo/MCUtils",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +11,16 @@
     "Marcio Paludo": "marciofochesatopaludo@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Marcio Paludo/MCUtils.git",
-    "tag": "0.1.0"
+    "git": "git@github.com:MarcioFPaludo/MCUtils.git",
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "MCUtils/Classes/**/*"
+  "source_files": "MCUtils/**/*",
+  "resource_bundles": {
+    "MCUtils": [
+      "MCUtils/Resources/*"
+    ]
+  }
 }

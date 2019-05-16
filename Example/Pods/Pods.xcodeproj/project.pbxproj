@@ -10,11 +10,16 @@
 		0AA4B7EBDB3C9CA2F96BBA6D558C2D0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		102B4951263C4FC94CAAD4815459E516 /* Pods-MCUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81E0AAE5AD6088C18168B495FB63A471 /* Pods-MCUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3FD6D1CB820ABED46A6D532330870FD9 /* Pods-MCUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D93E85DDF4D208EE9F673458B098FFE3 /* Pods-MCUtils_Tests-dummy.m */; };
-		5AEE5BB1797882C7A5C80571253268C2 /* MCUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12B68F96ACE33B069BEC6356F2A2BFC5 /* MCUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F4117FB996D9E500DB61A63B9AE9488 /* MCUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CC10AAC8AEA4DEF3278D15ECBE71D2 /* MCUtils-dummy.m */; };
-		94EF166C2252A7C900503F44 /* MCUTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EF166A2252A7C900503F44 /* MCUTextView.m */; };
-		94EF166D2252A7C900503F44 /* MCUTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 94EF166B2252A7C900503F44 /* MCUTextView.h */; };
-		DA8405F096A59B1E1A837963B14641AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		4003B5B21A93FC8FE8C3C2E1764E6025 /* green-grass-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = A63222146F790746BADF11C4911A41E2 /* green-grass-hi.png */; };
+		722201BA87E701632BB3C1B0936F9459 /* green-grass-hi.png in Sources */ = {isa = PBXBuildFile; fileRef = A63222146F790746BADF11C4911A41E2 /* green-grass-hi.png */; };
+		77DF0694C6CDFCF5360556D511A649FF /* MCUTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C1954846808D47155F6678BC1CF93F /* MCUTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DF388D1A72D2082D36A0D571E41662B /* MCUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA821534FDD5115481D0B851513C03D /* MCUtils-dummy.m */; };
+		8ABAD784062666EC05BE59DB0A3027C0 /* MCUtils.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1823AA1FC309C7A1835B439CDCE9F4CC /* MCUtils.bundle */; };
+		A81ED794032605D7477D6E429F0E8353 /* UIColor+MCU.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7D649FB68F8284E3D1DC6C056E77CC /* UIColor+MCU.m */; };
+		BDF0F66778264465E0EB3C1634A2DBA3 /* MCUTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA62771D54D96DD9D8F56098925E64A /* MCUTextView.m */; };
+		D20197FE16197033F24F7656F4F4DF83 /* MCUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCBDE024798691D02EE42613FAD9C583 /* MCUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4E5DA62F056320BA6BFA426B7AED45B /* UIColor+MCU.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BA38CBD8EF36076DEFCD784A9F55A4E /* UIColor+MCU.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5705F902F0774F0491792CF9D030735 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,36 +27,48 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 241B313D319D0CAE83EAE9217724F1F7;
+			remoteGlobalIDString = 7D89E6982C41EB0BDAF662CE12F53195;
 			remoteInfo = MCUtils;
+		};
+		92EE2185EF3DE01C05DD9D3077D8E4CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB890C5B36E6C26E3F86575614C426F3;
+			remoteInfo = "MCUtils-MCUtils";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12B68F96ACE33B069BEC6356F2A2BFC5 /* MCUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCUtils-umbrella.h"; sourceTree = "<group>"; };
-		15B64846ACD6832AE0215592309DEB31 /* MCUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MCUtils-Info.plist"; sourceTree = "<group>"; };
-		1FB261A395D8EE75185F33ABCC17F0C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1823AA1FC309C7A1835B439CDCE9F4CC /* MCUtils.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MCUtils.bundle; path = "MCUtils-MCUtils.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A2DEC1898BF3EB33C96A71D2C4F6B0D /* Pods-MCUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MCUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		35A00BAED1FC8275D76C7E9C5665B000 /* Pods-MCUtils_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCUtils_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		3CA2BC11C369C434D7396637031C57EC /* Pods-MCUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MCUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		446E2C6C3ACE3C453D9149FE45F02113 /* MCUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MCUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4A969E7C3F59954575A9AC676FD753A1 /* MCUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MCUtils.xcconfig; sourceTree = "<group>"; };
+		4568865D2E2E3F3BBF250CF049675157 /* MCUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MCUtils.xcconfig; sourceTree = "<group>"; };
+		46C1954846808D47155F6678BC1CF93F /* MCUTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCUTextView.h; sourceTree = "<group>"; };
+		4BA38CBD8EF36076DEFCD784A9F55A4E /* UIColor+MCU.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+MCU.h"; sourceTree = "<group>"; };
+		530C52418AB849F352B8F77BEEA42EBB /* MCUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MCUtils.modulemap; sourceTree = "<group>"; };
+		5DA821534FDD5115481D0B851513C03D /* MCUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MCUtils-dummy.m"; sourceTree = "<group>"; };
+		766774928D3A4FD9D22CF78910C4DF76 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7CC8EF5DD6B1AFB31294F684C2E2D7B8 /* MCUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MCUtils-Info.plist"; sourceTree = "<group>"; };
 		81E0AAE5AD6088C18168B495FB63A471 /* Pods-MCUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MCUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8AF32FB457112066E2FC57025D8F1616 /* Pods_MCUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		840DA8376913E36016C42306411316B0 /* MCUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MCUtils.framework; path = MCUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		890EA60DE7A05B5221CF40CAC7112511 /* MCUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MCUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94DFBAF8645DFD769EF823C3E418D1BF /* Pods-MCUtils_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MCUtils_Tests-Info.plist"; sourceTree = "<group>"; };
-		94EF166A2252A7C900503F44 /* MCUTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCUTextView.m; sourceTree = "<group>"; };
-		94EF166B2252A7C900503F44 /* MCUTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCUTextView.h; sourceTree = "<group>"; };
-		979951E2C98DFE7D5B9AAA570676F8A5 /* MCUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MCUtils.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A60C350D270B133C7CA012FAEED05FD8 /* MCUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCUtils-prefix.pch"; sourceTree = "<group>"; };
-		A9354D250CAEE2B2DBF174EC59F8AC87 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		AAAC233A9868882F5B9B734A9895399E /* MCUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MCUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A63222146F790746BADF11C4911A41E2 /* green-grass-hi.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "green-grass-hi.png"; sourceTree = "<group>"; };
+		B441316A21365B80E6FECCB10673E7C7 /* MCUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCUtils-prefix.pch"; sourceTree = "<group>"; };
 		B97CD528FC8418CCD1A6BD2D0C32F3CD /* Pods-MCUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C2CC10AAC8AEA4DEF3278D15ECBE71D2 /* MCUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MCUtils-dummy.m"; sourceTree = "<group>"; };
+		BC720612012D7ACB484919A711F15810 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CB1A631876E93A161F153BAC980743FA /* Pods-MCUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MCUtils_Tests.modulemap"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCBDE024798691D02EE42613FAD9C583 /* MCUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCUtils-umbrella.h"; sourceTree = "<group>"; };
 		D93E85DDF4D208EE9F673458B098FFE3 /* Pods-MCUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MCUtils_Tests-dummy.m"; sourceTree = "<group>"; };
+		EBE2AA4A2D232F1C8E07E24D7E995B0F /* Pods_MCUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MCUtils_Tests.framework; path = "Pods-MCUtils_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1A28998F2C54AE749C530F53DFA5DE1 /* Pods-MCUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FA412CEAC2174E1EC689EA74F4A9A1EC /* ResourceBundle-MCUtils-MCUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MCUtils-MCUtils-Info.plist"; sourceTree = "<group>"; };
+		FD7D649FB68F8284E3D1DC6C056E77CC /* UIColor+MCU.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MCU.m"; sourceTree = "<group>"; };
+		FEA62771D54D96DD9D8F56098925E64A /* MCUTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MCUTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,17 +80,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6FC24A70DBC5B6A02E92A8C7BD595DA /* Frameworks */ = {
+		2B23A4180D088EECA010A33BA6919C24 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA8405F096A59B1E1A837963B14641AC /* Foundation.framework in Frameworks */,
+				F5705F902F0774F0491792CF9D030735 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D6CD03467C6BE809D8E4F2BB824B87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08F6E09286B7681EDFE3980A6F82D0CC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4BA38CBD8EF36076DEFCD784A9F55A4E /* UIColor+MCU.h */,
+				FD7D649FB68F8284E3D1DC6C056E77CC /* UIColor+MCU.m */,
+			);
+			name = Categories;
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		34AC95BE6B04DFE4EFA3C360101B5CAD /* Pods-MCUtils_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,58 +125,88 @@
 			path = "Target Support Files/Pods-MCUtils_Tests";
 			sourceTree = "<group>";
 		};
-		359476AD86BA51BDCB44497618B5AB3E /* Pod */ = {
+		3AB8B10AF4859E71ADC5FAD0438244CE /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				94EF16682252A75100503F44 /* Classes */,
-				94EF16692252A77800503F44 /* Resources */,
-				1FB261A395D8EE75185F33ABCC17F0C5 /* LICENSE */,
-				446E2C6C3ACE3C453D9149FE45F02113 /* MCUtils.podspec */,
-				A9354D250CAEE2B2DBF174EC59F8AC87 /* README.md */,
+				48964138F7FED39D6BB785717D15D595 /* MCUtils */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		424B5C8B22E86C1D5BEDB2A5B66500C8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BC720612012D7ACB484919A711F15810 /* LICENSE */,
+				890EA60DE7A05B5221CF40CAC7112511 /* MCUtils.podspec */,
+				766774928D3A4FD9D22CF78910C4DF76 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		58F6CFDC341F9684D56FE9A0B7611576 /* MCUtils */ = {
+		48964138F7FED39D6BB785717D15D595 /* MCUtils */ = {
 			isa = PBXGroup;
 			children = (
-				359476AD86BA51BDCB44497618B5AB3E /* Pod */,
-				661D8BA22CA29D65C4B9FCB38111972C /* Support Files */,
+				4BCBDABC283E151972D9115623F58593 /* Classes */,
+				424B5C8B22E86C1D5BEDB2A5B66500C8 /* Pod */,
+				5DB4E28E58BC49BA26F0131DFEE39211 /* Resources */,
+				54314AFE164895502F336EAE248D4A4E /* Support Files */,
 			);
 			name = MCUtils;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		661D8BA22CA29D65C4B9FCB38111972C /* Support Files */ = {
+		4BCBDABC283E151972D9115623F58593 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				979951E2C98DFE7D5B9AAA570676F8A5 /* MCUtils.modulemap */,
-				4A969E7C3F59954575A9AC676FD753A1 /* MCUtils.xcconfig */,
-				C2CC10AAC8AEA4DEF3278D15ECBE71D2 /* MCUtils-dummy.m */,
-				15B64846ACD6832AE0215592309DEB31 /* MCUtils-Info.plist */,
-				A60C350D270B133C7CA012FAEED05FD8 /* MCUtils-prefix.pch */,
-				12B68F96ACE33B069BEC6356F2A2BFC5 /* MCUtils-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MCUtils";
-			sourceTree = "<group>";
-		};
-		94EF16682252A75100503F44 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				94EF166B2252A7C900503F44 /* MCUTextView.h */,
-				94EF166A2252A7C900503F44 /* MCUTextView.m */,
+				08F6E09286B7681EDFE3980A6F82D0CC /* Categories */,
+				6F02003153D5FC46A0BA37180426D480 /* Views */,
 			);
 			name = Classes;
 			path = MCUtils/Classes;
 			sourceTree = "<group>";
 		};
-		94EF16692252A77800503F44 /* Resources */ = {
+		54314AFE164895502F336EAE248D4A4E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				530C52418AB849F352B8F77BEEA42EBB /* MCUtils.modulemap */,
+				4568865D2E2E3F3BBF250CF049675157 /* MCUtils.xcconfig */,
+				5DA821534FDD5115481D0B851513C03D /* MCUtils-dummy.m */,
+				7CC8EF5DD6B1AFB31294F684C2E2D7B8 /* MCUtils-Info.plist */,
+				B441316A21365B80E6FECCB10673E7C7 /* MCUtils-prefix.pch */,
+				CCBDE024798691D02EE42613FAD9C583 /* MCUtils-umbrella.h */,
+				FA412CEAC2174E1EC689EA74F4A9A1EC /* ResourceBundle-MCUtils-MCUtils-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MCUtils";
+			sourceTree = "<group>";
+		};
+		59366959EE8F703C2C75B3797453B46A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1823AA1FC309C7A1835B439CDCE9F4CC /* MCUtils.bundle */,
+				840DA8376913E36016C42306411316B0 /* MCUtils.framework */,
+				EBE2AA4A2D232F1C8E07E24D7E995B0F /* Pods_MCUtils_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DB4E28E58BC49BA26F0131DFEE39211 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A63222146F790746BADF11C4911A41E2 /* green-grass-hi.png */,
 			);
 			name = Resources;
-			path = MCUtils/Assets;
+			path = MCUtils/Resources;
+			sourceTree = "<group>";
+		};
+		6F02003153D5FC46A0BA37180426D480 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46C1954846808D47155F6678BC1CF93F /* MCUTextView.h */,
+				FEA62771D54D96DD9D8F56098925E64A /* MCUTextView.m */,
+			);
+			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -157,9 +221,9 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				FF1C2AA1F15524329CCED5830E99288E /* Development Pods */,
+				3AB8B10AF4859E71ADC5FAD0438244CE /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				F8464ABB53C1A849C8E31F986E36F3FC /* Products */,
+				59366959EE8F703C2C75B3797453B46A /* Products */,
 				E208853EC33017402FC32D0B8101172F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -180,35 +244,9 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F8464ABB53C1A849C8E31F986E36F3FC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AAAC233A9868882F5B9B734A9895399E /* MCUtils.framework */,
-				8AF32FB457112066E2FC57025D8F1616 /* Pods_MCUtils_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FF1C2AA1F15524329CCED5830E99288E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				58F6CFDC341F9684D56FE9A0B7611576 /* MCUtils */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2F9AD64D7B338724E5C6A07EC8B45FB0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				94EF166D2252A7C900503F44 /* MCUTextView.h in Headers */,
-				5AEE5BB1797882C7A5C80571253268C2 /* MCUtils-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9EF0F56B9D3512AB79A87E6910DAABC4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -217,27 +255,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C82F56222622E243E6DC00A35B45C550 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77DF0694C6CDFCF5360556D511A649FF /* MCUTextView.h in Headers */,
+				D20197FE16197033F24F7656F4F4DF83 /* MCUtils-umbrella.h in Headers */,
+				E4E5DA62F056320BA6BFA426B7AED45B /* UIColor+MCU.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		241B313D319D0CAE83EAE9217724F1F7 /* MCUtils */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DBEA2A977F1A2AB7F97FE112A40AAADC /* Build configuration list for PBXNativeTarget "MCUtils" */;
-			buildPhases = (
-				2F9AD64D7B338724E5C6A07EC8B45FB0 /* Headers */,
-				CF3DA1B03FE6069E5A92803FDCD59A80 /* Sources */,
-				C6FC24A70DBC5B6A02E92A8C7BD595DA /* Frameworks */,
-				0DEF5B4DEE642309DD29C377421D4763 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MCUtils;
-			productName = MCUtils;
-			productReference = AAAC233A9868882F5B9B734A9895399E /* MCUtils.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		4E6ACE9CF5F61E1BDE6F1CBA7273FD53 /* Pods-MCUtils_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC403646677390523F8A4E8B526C49CF /* Build configuration list for PBXNativeTarget "Pods-MCUtils_Tests" */;
@@ -254,8 +284,44 @@
 			);
 			name = "Pods-MCUtils_Tests";
 			productName = "Pods-MCUtils_Tests";
-			productReference = 8AF32FB457112066E2FC57025D8F1616 /* Pods_MCUtils_Tests.framework */;
+			productReference = EBE2AA4A2D232F1C8E07E24D7E995B0F /* Pods_MCUtils_Tests.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		7D89E6982C41EB0BDAF662CE12F53195 /* MCUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BEC188838711E278A7781AD729104A6 /* Build configuration list for PBXNativeTarget "MCUtils" */;
+			buildPhases = (
+				C82F56222622E243E6DC00A35B45C550 /* Headers */,
+				29980BF1988758A18E325D71A43EA299 /* Sources */,
+				2B23A4180D088EECA010A33BA6919C24 /* Frameworks */,
+				77C237A7DD1508B62ECF5C2B0F31DBBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E19C14106364B232E59C0A48EA25604A /* PBXTargetDependency */,
+			);
+			name = MCUtils;
+			productName = MCUtils;
+			productReference = 840DA8376913E36016C42306411316B0 /* MCUtils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB890C5B36E6C26E3F86575614C426F3 /* MCUtils-MCUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33EBE8AB92FB4B7B0BDBC7D131F35660 /* Build configuration list for PBXNativeTarget "MCUtils-MCUtils" */;
+			buildPhases = (
+				998D2AF22E161AB4FD77D9ED9B3F0AA2 /* Sources */,
+				90D6CD03467C6BE809D8E4F2BB824B87 /* Frameworks */,
+				284C3B38121BB409CFD6A3ED305F99BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MCUtils-MCUtils";
+			productName = "MCUtils-MCUtils";
+			productReference = 1823AA1FC309C7A1835B439CDCE9F4CC /* MCUtils.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -274,21 +340,31 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F8464ABB53C1A849C8E31F986E36F3FC /* Products */;
+			productRefGroup = 59366959EE8F703C2C75B3797453B46A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				241B313D319D0CAE83EAE9217724F1F7 /* MCUtils */,
+				7D89E6982C41EB0BDAF662CE12F53195 /* MCUtils */,
+				DB890C5B36E6C26E3F86575614C426F3 /* MCUtils-MCUtils */,
 				4E6ACE9CF5F61E1BDE6F1CBA7273FD53 /* Pods-MCUtils_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0DEF5B4DEE642309DD29C377421D4763 /* Resources */ = {
+		284C3B38121BB409CFD6A3ED305F99BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4003B5B21A93FC8FE8C3C2E1764E6025 /* green-grass-hi.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C237A7DD1508B62ECF5C2B0F31DBBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ABAD784062666EC05BE59DB0A3027C0 /* MCUtils.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,12 +378,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CF3DA1B03FE6069E5A92803FDCD59A80 /* Sources */ = {
+		29980BF1988758A18E325D71A43EA299 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F4117FB996D9E500DB61A63B9AE9488 /* MCUtils-dummy.m in Sources */,
-				94EF166C2252A7C900503F44 /* MCUTextView.m in Sources */,
+				722201BA87E701632BB3C1B0936F9459 /* green-grass-hi.png in Sources */,
+				BDF0F66778264465E0EB3C1634A2DBA3 /* MCUTextView.m in Sources */,
+				7DF388D1A72D2082D36A0D571E41662B /* MCUtils-dummy.m in Sources */,
+				A81ED794032605D7477D6E429F0E8353 /* UIColor+MCU.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998D2AF22E161AB4FD77D9ED9B3F0AA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,8 +410,14 @@
 		8041F25FE9AD5863D7BA26D59DE7CEEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MCUtils;
-			target = 241B313D319D0CAE83EAE9217724F1F7 /* MCUtils */;
+			target = 7D89E6982C41EB0BDAF662CE12F53195 /* MCUtils */;
 			targetProxy = 65B20E6A87FBF0996B0146A60B773CD8 /* PBXContainerItemProxy */;
+		};
+		E19C14106364B232E59C0A48EA25604A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MCUtils-MCUtils";
+			target = DB890C5B36E6C26E3F86575614C426F3 /* MCUtils-MCUtils */;
+			targetProxy = 92EE2185EF3DE01C05DD9D3077D8E4CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -365,9 +456,9 @@
 			};
 			name = Release;
 		};
-		A7C72D3E0406CD833EE12EAF1ED4790C /* Debug */ = {
+		46CE48D5AEF5226875A2304BE3621138 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A969E7C3F59954575A9AC676FD753A1 /* MCUtils.xcconfig */;
+			baseConfigurationReference = 4568865D2E2E3F3BBF250CF049675157 /* MCUtils.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -381,7 +472,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MCUtils/MCUtils-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MCUtils/MCUtils-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MCUtils/MCUtils.modulemap";
 				PRODUCT_MODULE_NAME = MCUtils;
@@ -394,6 +485,53 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		4EA763E21138F22A04C38D076606B0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4568865D2E2E3F3BBF250CF049675157 /* MCUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MCUtils";
+				INFOPLIST_FILE = "Target Support Files/MCUtils/ResourceBundle-MCUtils-MCUtils-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = MCUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		72CB9CB86486405CE6CFA20BC4B2A55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4568865D2E2E3F3BBF250CF049675157 /* MCUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MCUtils/MCUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MCUtils/MCUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MCUtils/MCUtils.modulemap";
+				PRODUCT_MODULE_NAME = MCUtils;
+				PRODUCT_NAME = MCUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -459,6 +597,22 @@
 			};
 			name = Debug;
 		};
+		B0291E34AA4E73EDB98472EE6835F991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4568865D2E2E3F3BBF250CF049675157 /* MCUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MCUtils";
+				INFOPLIST_FILE = "Target Support Files/MCUtils/ResourceBundle-MCUtils-MCUtils-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = MCUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		CBAED49CEB20E0B5A08925EE8DA4A9A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B97CD528FC8418CCD1A6BD2D0C32F3CD /* Pods-MCUtils_Tests.debug.xcconfig */;
@@ -491,37 +645,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		D9D420D8AFE07AC0E085E60ECC95BBE2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A969E7C3F59954575A9AC676FD753A1 /* MCUtils.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MCUtils/MCUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MCUtils/MCUtils-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MCUtils/MCUtils.modulemap";
-				PRODUCT_MODULE_NAME = MCUtils;
-				PRODUCT_NAME = MCUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -576,7 +699,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -585,6 +709,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		33EBE8AB92FB4B7B0BDBC7D131F35660 /* Build configuration list for PBXNativeTarget "MCUtils-MCUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0291E34AA4E73EDB98472EE6835F991 /* Debug */,
+				4EA763E21138F22A04C38D076606B0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -594,20 +727,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		9BEC188838711E278A7781AD729104A6 /* Build configuration list for PBXNativeTarget "MCUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46CE48D5AEF5226875A2304BE3621138 /* Debug */,
+				72CB9CB86486405CE6CFA20BC4B2A55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CC403646677390523F8A4E8B526C49CF /* Build configuration list for PBXNativeTarget "Pods-MCUtils_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBAED49CEB20E0B5A08925EE8DA4A9A5 /* Debug */,
 				222B28A5A7D22C7BF56C2844F194BED0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DBEA2A977F1A2AB7F97FE112A40AAADC /* Build configuration list for PBXNativeTarget "MCUtils" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A7C72D3E0406CD833EE12EAF1ED4790C /* Debug */,
-				D9D420D8AFE07AC0E085E60ECC95BBE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
