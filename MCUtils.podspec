@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MCUtils'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A set of classes to facilitate programming.'
   s.homepage         = 'https://github.com/MarcioFPaludo/MCUtils'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
