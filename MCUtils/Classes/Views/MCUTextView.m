@@ -42,7 +42,7 @@
 
 - (void)initialize
 {
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textChanged:) name:UITextViewTextDidChangeNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textChanged:) name:UITextViewTextDidChangeNotification object:self];
     
     self.delegate = self;
     
@@ -64,14 +64,12 @@
 - (void)setFont:(UIFont *)font
 {
     [super setFont:font];
-    
     [_placeHolderLabel setFont:font];
 }
 
 - (void)setText:(NSString *)text
 {
     [super setText:text];
-    
     [self textChanged:nil];
 }
 
@@ -88,47 +86,6 @@
 - (void)textChanged:(NSNotification *)notification
 {
     _placeHolderLabel.hidden = self.text.length != 0;
-}
-
-#pragma mark TextView Delegate
-
-- (BOOL)textViewShouldBeginEditing:(UITextView *)textView
-{
-    return _textViewShouldBeginEditing != nil ? _textViewShouldBeginEditing(self) : YES;
-}
-
-- (BOOL)textViewShouldEndEditing:(UITextView *)textView
-{
-    return _textViewShouldEndEditing != nil ? _textViewShouldEndEditing(self) : YES;
-}
-
-- (void)textViewDidBeginEditing:(UITextView *)textView
-{
-    if (_textViewDidBeginEditing != nil)
-        _textViewDidBeginEditing(self);
-}
-
-- (void)textViewDidEndEditing:(UITextView *)textView
-{
-    if (_textViewDidEndEditing != nil)
-        _textViewDidEndEditing(self);
-}
-
-- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
-{
-    return _textViewShouldChangeTextInRangeReplacementText != nil ? _textViewShouldChangeTextInRangeReplacementText(self, range, text) : YES;
-}
-
-- (void)textViewDidChange:(UITextView *)textView
-{
-    if (_textViewDidChange != nil)
-        _textViewDidChange(self);
-}
-
-- (void)textViewDidChangeSelection:(UITextView *)textView
-{
-    if (_textViewDidChangeSelection != nil)
-        _textViewDidChangeSelection(self);
 }
 
 @end
