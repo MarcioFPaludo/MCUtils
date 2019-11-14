@@ -22,7 +22,7 @@ pod 'MCUtils'
 
 ## Author
 
-Marcio Paludo, marciofochesatopaludo@gmail.com
+Marcio Paludo, marciof.paludo@gmail.com
 
 ## License
 
