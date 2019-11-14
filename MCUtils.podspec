@@ -8,12 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MCUtils'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A set of classes to facilitate programming.'
   s.homepage         = 'https://github.com/MarcioFPaludo/MCUtils'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Marcio Paludo' => 'marciofochesatopaludo@gmail.com' }
-  s.source           = { :git => 'git@github.com:MarcioFPaludo/MCUtils.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MarcioFPaludo/MCUtils.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '9.0'
   
