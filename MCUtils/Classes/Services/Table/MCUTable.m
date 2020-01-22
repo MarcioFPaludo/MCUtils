@@ -101,6 +101,17 @@
     return [NSIndexPath indexPathForRow:[section indexForRow:row] inSection:[self indexOfSection:section]];
 }
 
+- (NSIndexPath *)indexPathForFirstRowWithType:(short)type
+{
+    MCURow *row;
+    
+    for (MCUSection *section in _sections)
+        if ((row = [section firstRowWithType:type]))
+            break;
+            
+    return row ? [self indexPathForRow:row] : nil;
+}
+
 - (NSUInteger)indexOfSection:(MCUSection *)section
 {
     return [_sections indexOfObject:section];

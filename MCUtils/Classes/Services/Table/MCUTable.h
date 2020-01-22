@@ -22,6 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)removeSection:(MCUSection *)section;
 - (MCUSection *)sectionAtIndex:(NSUInteger)index;
 - (NSIndexPath *)indexPathForRow:(MCURow *)row;
+- (NSIndexPath *)indexPathForFirstRowWithType:(short)type;
 - (NSUInteger)indexOfSection:(MCUSection *)section;
 - (void)addSection:(MCUSection *)section;
 - (void)addSectionWithRow:(MCURow *)row;
