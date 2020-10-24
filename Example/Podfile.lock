@@ -1,5 +1,5 @@
 PODS:
-  - MCUtils (0.1.1)
+  - MCUtils (0.1.4)
 
 DEPENDENCIES:
   - MCUtils (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MCUtils: 46d2fe42e7d5c57d705f5ebc0dba73e5e16b22f9
+  MCUtils: 3bf5e7d9d726b69308a1fc7eef86406103c92e19
 
 PODFILE CHECKSUM: 53416106dfb4211b65b54b1a05ab6c705a3281a5
 
-COCOAPODS: 1.6.0
+COCOAPODS: 1.9.1
