@@ -8,20 +8,19 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MCUtils'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'A set of classes to facilitate programming.'
   s.homepage         = 'https://github.com/MarcioFPaludo/MCUtils'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Marcio Paludo' => 'marciofochesatopaludo@gmail.com' }
+  s.author           = { 'Marcio Paludo' => 'marciof.paludo@gmail.com' }
   s.source           = { :git => 'https://github.com/MarcioFPaludo/MCUtils.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '9.0'
   
   s.static_framework = true
   s.source_files = 'MCUtils/Classes/**/*'
-  s.resources = 'MCUtils/Resources/**/*.{xib,ttf}'
   s.resource_bundles = {
-    'MCUtils' => ['MCUtils/Assets/*.{png, pdf}', 'MCUtils/Resources/**/*.{xib,xcassets,ttf}']
+    'MCUtils' => ['MCUtils/Resources/**/*.{xib,xcassets,ttf}']
   }
   
   #s.frameworks = 'UIKit', 'MapKit'

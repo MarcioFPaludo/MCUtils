@@ -51,10 +51,11 @@
 	
 	_buttonLeft = buttonLeft;
 	
-    NSBundle *bundle = MCUBundleManager.bundle;
-    UIImage *image = [UIImage imageNamed:@"Backspace" inBundle:bundle compatibleWithTraitCollection:nil];
+    UIImage *image = [UIImage imageNamed:@"Backspace" inBundle:MCUBundleManager.bundle compatibleWithTraitCollection:nil];
 	UIButton *buttonRight = [UIButton buttonWithType:UIButtonTypeCustom];
 	[buttonRight addTarget:self action:@selector(deleteNumber:) forControlEvents:UIControlEventTouchUpInside];
+    buttonRight.imageEdgeInsets = UIEdgeInsetsMake(12.0, 16.0, 12.0, 16.0);
+    buttonRight.imageView.contentMode = UIViewContentModeScaleAspectFit;
     buttonRight.backgroundColor = UIColorWithPercentScale(86, 1);
     [buttonRight setImage:image  forState:UIControlStateNormal];
     buttonRight.translatesAutoresizingMaskIntoConstraints = NO;

@@ -15,7 +15,7 @@
     __strong static NSBundle *sharedBundle = nil;
     dispatch_once(&onceToken, ^{
         NSBundle *bundle = [NSBundle bundleForClass:self.class];
-        sharedBundle = [NSBundle bundleWithURL:[bundle bundleURL]];
+        sharedBundle = [NSBundle bundleWithURL:[bundle URLForResource:@"MCUtils" withExtension:@"bundle"]];
     });
     
     return sharedBundle;
