@@ -7,6 +7,7 @@
 //
 
 #import <AudioToolbox/AudioToolbox.h>
+#import "MCUBundleManager.h"
 #import "MCUNumpadView.h"
 #import "UIColor+MCU.h"
 
@@ -50,11 +51,13 @@
 	
 	_buttonLeft = buttonLeft;
 	
+    NSBundle *bundle = MCUBundleManager.bundle;
+    UIImage *image = [UIImage imageNamed:@"Backspace" inBundle:bundle compatibleWithTraitCollection:nil];
 	UIButton *buttonRight = [UIButton buttonWithType:UIButtonTypeCustom];
 	[buttonRight addTarget:self action:@selector(deleteNumber:) forControlEvents:UIControlEventTouchUpInside];
-	[buttonRight setImage:[UIImage imageNamed:@"BackspaceIcon.png"] forState:UIControlStateNormal];
-	buttonRight.backgroundColor = UIColorWithPercentScale(86, 1);
-	buttonRight.translatesAutoresizingMaskIntoConstraints = NO;
+    buttonRight.backgroundColor = UIColorWithPercentScale(86, 1);
+    [buttonRight setImage:image  forState:UIControlStateNormal];
+    buttonRight.translatesAutoresizingMaskIntoConstraints = NO;
 
 	[self addSubview:buttonLeft];
 	[self addSubview:buttonRight];

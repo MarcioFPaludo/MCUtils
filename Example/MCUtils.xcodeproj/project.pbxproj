@@ -128,7 +128,7 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				B5819174489E2076ED43D117 /* [CP] Embed Pods Frameworks */,
+				B489362D2B6601118CB0B6D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,22 +206,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B5819174489E2076ED43D117 /* [CP] Embed Pods Frameworks */ = {
+		B489362D2B6601118CB0B6D6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MCUtils_Tests/Pods-MCUtils_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MCUtils/MCUtils.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-MCUtils_Tests/Pods-MCUtils_Tests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MCUtils/MCUtils.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MCUtils.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MCUtils.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MCUtils_Tests/Pods-MCUtils_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MCUtils_Tests/Pods-MCUtils_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

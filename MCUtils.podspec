@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.source_files = 'MCUtils/Classes/**/*'
   s.resources = 'MCUtils/Resources/**/*.{xib,ttf}'
   s.resource_bundles = {
-    'MCUtils' => ['MCUtils/Assets/*.png, pdf', 'MCUtils/Resources/**/*.{xib, xcassets,ttf}']
+    'MCUtils' => ['MCUtils/Assets/*.{png, pdf}', 'MCUtils/Resources/**/*.{xib,xcassets,ttf}']
   }
   
   #s.frameworks = 'UIKit', 'MapKit'
